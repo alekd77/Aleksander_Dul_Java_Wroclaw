@@ -12,9 +12,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class ConfigFileLoaderTest {
     private static String configFileDirPath = null;
 
-    public ConfigFileLoaderTest() {
-    }
-
     @BeforeAll
     public static void setup() {
         configFileDirPath = System.getenv("OCADO_BASKET_TEST_FILES_DIR_PATH");
